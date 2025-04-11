@@ -1,4 +1,4 @@
-整合lcd,micro_sd,dac,timer,dma等外設製作具有音效的俄羅斯方塊遊戲。    
+整合lcd,micro_sd,dac,timer,dma,usart等外設製作具有音效的俄羅斯方塊遊戲。    
 遊玩時會撥放背景音樂，消掉方塊時會撥放勝利音樂。  
 其中，lcd和micro_sd是用spi通訊的，初始化的方式是參考他們各自的datasheet寫的，dac,timer,dma則是板子上自帶的外設。  
 展示.mp4是遊玩的展示(因為音效是透過耳機放的，所以在此影片中聽不到)，展示_背景音樂.mp4和展示_勝利音樂.mp4是耳機撥放的音樂  
